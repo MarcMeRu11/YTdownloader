@@ -22,10 +22,6 @@ window.geometry("518x110")
 window.configure(background="black")
 window.resizable(False, False)
 
-def downloadButton(link):
-    downloader = Downloader(link)
-    downloader.download()
-
 #labels
 empty = Label(window, text="", bg="black")
 empty.grid(row = 0,column = 0)
